@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+/* font-family: 'Russo One', sans-serif; */
 
 *{
     box-sizing: border-box;
@@ -19,4 +21,25 @@
 }
 .botonNav{
     border: none;
+}
+
+
+/* CATEGORIA 1 */
+.podio{
+    height: 40vh;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.imgPodio{
+    border-radius: 20px;
+    background-color: rgb(190, 190, 202);
+    width: 30vw;
+    height: 80%;
+
 }
