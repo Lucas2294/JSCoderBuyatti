@@ -115,7 +115,9 @@
     border-radius: 10px;
     color: #FFBD69;
     font-size: 2rem;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nombrePuesto{
@@ -126,7 +128,9 @@
     border-radius: 10px;
     margin-bottom: 0;
     font-size: 2rem;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .puntosPuesto{
@@ -136,8 +140,9 @@
     border-radius: 10px;
     color: #381460;
     font-size: 1.2rem;
-    text-align: center;
-    padding-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -171,7 +176,15 @@ https://colorhunt.co/palette/381460b21f66fe346effbd69*/
   @media (max-width: 414px) {
     .nombrePuesto{
         font-size: 1.2rem;
-        padding-top: 0.6rem;
+        /* padding-top: 0.6rem; */
+        line-height: normal;
+    }
+  }
+
+  @media (max-width: 370px) {
+    .nombrePuesto{
+        font-size: 1.1rem;
+        padding-top: 0.2rem;
         line-height: normal;
     }
   }
