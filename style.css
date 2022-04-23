@@ -25,9 +25,15 @@
 
 
 /* CATEGORIA 1 */
+
+/* PODIO */
+.categoriaUno{
+    background: rgb(178,31,102);
+    background: linear-gradient(159deg, rgba(178,31,102,1) 4%, rgba(56,20,96,1) 73%);
+}
+
 .podio{
     height: 40vh;
-    background-color: brown;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -36,10 +42,92 @@
     padding-right: 20px;
 }
 
-.imgPodio{
+.pcategoria{
+    font-size: 3rem;
+}
+
+.divPodio{
     border-radius: 20px;
     background-color: rgb(190, 190, 202);
     width: 30vw;
     height: 80%;
+    background-image: url(img/1_39.png);
+    background-size: cover;
+    background-position-x: center;
+
 
 }
+
+.pPodio{
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+}
+
+#imgSegundo:hover{
+    transform: scale(1.2);
+}
+
+/* PUESTOS */
+.secPuestos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.puestos{
+    height: 6vh;
+    width: 80%;
+    background-color: #FE346E;
+    border-radius: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* padding-top: 0.4rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.puesto{
+    background-color: #fff;
+    width: 3rem;
+    height: 80%;
+    border-radius: 10px;
+    color: #FFBD69;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.nombrePuesto{
+    background-color: #fff;
+    color: #381460;
+    height: 80%;
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.puntosPuesto{
+    background-color: #fff;
+    height: 80%;
+    width: 5rem;
+    border-radius: 10px;
+    color: #381460;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 0.5rem;
+
+}
+
+.pPuntosPuesto{
+
+}
+
+
+
+/* Paleta de colores https://colorhunt.co/palette/2525256930c364dfdf80ffdb 
+https://colorhunt.co/palette/381460b21f66fe346effbd69*/
