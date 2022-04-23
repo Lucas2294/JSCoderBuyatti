@@ -11,9 +11,7 @@
     font-family: 'Racing Sans One', cursive;
 }
 
-.cusCarousel{
-    /* height: 800px; */
-}
+
 
 .imgCarousel{
     object-fit: cover;
@@ -146,9 +144,6 @@
 
 }
 
-.pPuntosPuesto{
-
-}
 
 
 
@@ -176,7 +171,7 @@ https://colorhunt.co/palette/381460b21f66fe346effbd69*/
   @media (max-width: 414px) {
     .nombrePuesto{
         font-size: 1.2rem;
-        /* padding-top: 0.6rem; */
+        padding-top: 0rem;
         line-height: normal;
     }
   }

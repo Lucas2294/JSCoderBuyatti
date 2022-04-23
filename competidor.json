@@ -1,0 +1,17 @@
+[
+    {
+        "nombre" : "Lucas Buyatti",
+        "puntos" : 38,
+        "puesto" : 1,
+        "localidad" : "Reconquista"
+    },
+
+    {
+        "nombre" : "Cacho Castaña",
+        "puntos" : 35,
+        "puesto" : 2,
+        "localidad" : "Nelson"
+    }
+]
+
+
