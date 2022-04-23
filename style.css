@@ -64,8 +64,19 @@
     color: #fff;
 }
 
+#imgPrimero:hover{
+    transition: all 1s ;
+    background-image: url(img/road-in-forest.jpg);
+}
+
 #imgSegundo:hover{
-    transform: scale(1.2);
+    transition: all 1s ;
+    background-image: url(img/road-in-forest.jpg);
+}
+
+#imgTercero:hover{
+    transition: all 1s ;
+    background-image: url(img/road-in-forest.jpg);
 }
 
 /* PUESTOS */
@@ -88,6 +99,13 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    box-shadow: rgb(6 24 44 / 40%) 0px 0px 0px 2px, rgb(6 24 44 / 65%) 0px 8px 10px -1px, rgb(255 255 255 / 8%) 0px 1px 0px inset;
+    transition: all 1s ease;
+}
+
+.puestos:hover{
+    transform: scale(1.2);
+
 }
 
 .puesto{
@@ -131,3 +149,29 @@
 
 /* Paleta de colores https://colorhunt.co/palette/2525256930c364dfdf80ffdb 
 https://colorhunt.co/palette/381460b21f66fe346effbd69*/
+
+
+
+/* MEDIA QUERIS */
+
+@media (max-width: 608px) {
+    .nombrePuesto{
+        font-size: 1.6rem;
+        padding-top: 0.3rem;
+    }
+  }
+
+  @media (max-width: 495px) {
+    .nombrePuesto{
+        font-size: 1.3rem;
+        padding-top: 0.5rem;
+    }
+  }
+
+  @media (max-width: 414px) {
+    .nombrePuesto{
+        font-size: 1.2rem;
+        padding-top: 0.6rem;
+        line-height: normal;
+    }
+  }
