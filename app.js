@@ -1,4 +1,7 @@
 
+
+cargarJSON();
+
 class Piloto {
     constructor(nombre, puntos, puesto, localidad) {
         this.nombre = nombre;
