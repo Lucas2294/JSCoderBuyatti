@@ -21,6 +21,97 @@
     border: none;
 }
 
+/* INDEX */
+
+.homee{
+    background: rgb(56,20,96);
+    background: linear-gradient(153deg, rgba(56,20,96,1) 52%, rgba(105,48,195,1) 100%);  
+    display: flex;
+    flex-direction: row;
+}
+
+.homeInfo{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+    /* align-items: center; */
+    padding: 3%;
+}
+
+.cuadro{
+    width: 80%;
+    height: 40vh;
+    background-color: #252525;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 2px solid #6930C3;
+    /* display: flex; */
+    /* flex-direction: row; */
+    padding: 3% 2% 3% 2%;
+}
+
+.cuadroUno{
+    align-self: flex-start;
+}
+.cuadroDos{
+    align-self: center;
+}
+.cuadroTres{
+    align-self: flex-end;
+}
+.imgCuadro{
+    width: 30%;
+    height: min-content;
+    align-self: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 2px rgb(255 255 255);
+    float: left;
+    margin-right: 2%;
+}
+.divCuadro{
+    width: 100%;
+    padding-left: 2%;
+}
+.tituloCuadro{
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+    padding-left: 2%;
+    margin-left: 30%;
+
+}
+.pCuadro{
+    text-align: left;
+    color: #FFBD69;
+    padding-left: 2%;
+}
+
+.asaide{
+    width: 15%;
+    height: max-content;
+    min-height: 100vh;
+    background-color: #252525;
+    border-radius: 10px 0 0 10px;
+    border: 2px solid #6930C3;
+    padding: 1rem;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.pAside{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
 
 /* CATEGORIA 1 */
 
@@ -63,6 +154,8 @@
 #imgPrimero:hover{
     transition: all 1s ease;
     background-image: url(img/road-in-forest.jpg);
+    background-size: cover;
+    background-position-x: center;
 }
 
 #imgSegundo:hover{
@@ -152,8 +245,28 @@ https://colorhunt.co/palette/381460b21f66fe346effbd69*/
 
 
 /* MEDIA QUERIS */
+@media (max-width:920px) {
+    .cuadro{
+        width: 100%;
+    }
+}
+
+@media (max-width: 720px) {
+    .asaide{
+        display: none;
+    }
+    .homeInfo{
+        width: 100%;
+    }
+    .cuadro{
+        width: 100%;
+    }
+}
 
 @media (max-width: 608px) {
+    .cuadro{
+        height: fit-content;
+    }
     .nombrePuesto{
         font-size: 1.6rem;
         padding-top: 0.3rem;
