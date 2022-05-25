@@ -318,3 +318,36 @@ https://colorhunt.co/palette/381460b21f66fe346effbd69*/
         line-height: normal;
     }
   }
+
+
+
+
+
+  /* CODERHOUSE */
+  .difCategorias{
+    background: rgb(178,31,102);
+    background: linear-gradient(159deg, rgba(178,31,102,1) 4%, rgba(56,20,96,1) 73%);
+    min-height: 80vh;
+    padding-top: 5%;
+  }
+
+  .selecCategorias{
+    height: 350px;
+    width: 100%;
+    background-color: #252525;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+  }
+
+  .elegirCategorias{
+    width: 30%;
+    height: 70%;
+    background-color: #FE346E;
+    border-radius: 10px;
+  }
+
+  .tCategoriasElegir{
+      text-align: center;
+  }
